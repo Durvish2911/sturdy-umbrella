@@ -1,17 +1,14 @@
 body{
-    font-family:cursive ;
-    font-size: 25 !important;
-    background-position: center;
-    background-image:url("giphy.gif") ;
-    background-size: cover;
+   background-color: black;
 }
 .btn-primary:hover{
-background-color: burlywood;
+background-color: rgb(241, 141, 10);
 }
 canvas{
     animation-name: hi;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     border: solid;
+    background-color: whitesmoke;
 }
 @keyframes hi{from{ box-shadow: 1px 1px 39px palegreen;}to{box-shadow: 1px 1px 39px navy;}}
